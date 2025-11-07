@@ -23,8 +23,6 @@ public class Factory {
     public Factory(){
         factoryInfo();
         String manager = "Mx. Bradford";
-        year_founded = year_founded + 5;
-        factoryInfo();
         //not an instance variable-- reg, can be used in this constructor only
 
     }
