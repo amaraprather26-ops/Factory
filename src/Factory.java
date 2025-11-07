@@ -22,7 +22,7 @@ public class Factory {
      */
     public Factory(){
         factoryInfo();
-        String manager = "Mx. Bradford";
+        String manager = "Amara";
         //not an instance variable-- reg, can be used in this constructor only
 
     }
