@@ -16,17 +16,20 @@ public class Factory {
         //only sout and constructor should be in psvm
     }
 
-    /*constructor; special type of method
+    /* constructor; special type of method
     has the same name as the class
     doesn't have void
      */
     public Factory(){
         factoryInfo();
-        String manager = "Amara";
         //not an instance variable-- reg, can be used in this constructor only
-        year_founded = year_founded + 6;
-        factoryInfo();
+        String manager = "Amara";
+        //object of type airplane
+        Airplane plane1 = new Airplane();//calls airplane class/constructor
+        System.out.println(plane1.name);
 
+        Airplane plane2 = new Airplane();
+        System.out.println(plane2.capacity);
     }
 
     public void factoryInfo(){
