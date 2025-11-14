@@ -37,12 +37,14 @@ public class Factory {
         plane3.isTwoTier = false;
         plane3.capacity = 400;
         plane3.length = 70;
-        System.out.println(plane3.name + plane3.length + plane3.model + plane3.isTwoTier + plane3.capacity);
-
+        System.out.println(plane3.name + " " +  plane3.length + plane3.model + plane3.isTwoTier + plane3.capacity);
         System.out.println();
 
         Airplane plane4 = new Airplane();
-        System.out.println(plane4.name + plane4.model + plane4.isTwoTier + plane4.capacity + plane4.length);
+        System.out.println(plane4.name  + " " + plane4.model + plane4.isTwoTier + plane4.capacity + plane4.length);
+
+        Airplane plane5 = new Airplane(300);
+        System.out.println(plane5.capacity);
     }
 
     public void factoryInfo(){
