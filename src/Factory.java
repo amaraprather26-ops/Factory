@@ -43,8 +43,14 @@ public class Factory {
         Airplane plane4 = new Airplane();
         System.out.println(plane4.name  + " " + plane4.model + plane4.isTwoTier + plane4.capacity + plane4.length);
 
-        Airplane plane5 = new Airplane(300);
-        System.out.println(plane5.capacity);
+        Airplane plane5 = new Airplane(300, "Joe", "Boeing 737", 50, false );
+        System.out.println("This plane named " + plane5.name + " is a " + plane5.model + ". It is " + plane5.length + " meters long. It has capacity " + plane5.capacity + ". It is double decker is " + plane5.isTwoTier);
+
+        Classroom French = new Classroom(345, "Mr. Margraf", true);
+        Classroom English = new Classroom();
+
+
+
     }
 
     public void factoryInfo(){

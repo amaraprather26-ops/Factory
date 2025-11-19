@@ -13,15 +13,18 @@ public class Airplane {
         model = "Boeing 747";
     }
 
-    public Airplane(int pCapacity){
-        name = "Jeph";
+    public Airplane(int pCapacity, String pName, String pmodel, int plength, boolean pdoubledecker){
+        name = pName;
+        //must be in container value order
         capacity = pCapacity;
-        isTwoTier = false;
-        length = 50;
-        model = "Boeing 747";
+        isTwoTier = pdoubledecker;
+        length = plength;
+        model = pmodel;
     }
 
     public void printInfo(){
-        System.out.println(name+ " " +model+ " " +capacity+ " " +length+ " " +isTwoTier);
+        System.out.println(name + " " +model+ " " +capacity+ " " +length+ " " +isTwoTier);
+        //to add readability add "words" that state the variable name that the variable print value matches
     }
+
 }
