@@ -3,15 +3,11 @@ public class Classroom {
     public String teacher;
     public boolean oneTable;
 
-    public static void main(String[] args) {
-        System.out.println("My Classroom");
-        Classroom();
-    }
-
     public Classroom(){
         roomNumber = 300;
         teacher = "Mm. Huuge";
         oneTable = false;
+        printInfo();
 
     }
 
@@ -23,6 +19,6 @@ public class Classroom {
     }
 
     public void printInfo(){
-        System.out.println(roomNumber + teacher + oneTable);
+        System.out.println(teacher + "'s room is room number " + roomNumber + ". It has a harkness table is " + oneTable);
     }
 }

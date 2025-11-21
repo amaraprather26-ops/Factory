@@ -21,7 +21,7 @@ public class Factory {
     doesn't have void
      */
     public Factory(){
-        factoryInfo();
+        /*factoryInfo();
         //not an instance variable-- reg, can be used in this constructor only
         String manager = "Amara";
         //object of type airplane
@@ -45,10 +45,9 @@ public class Factory {
 
         Airplane plane5 = new Airplane(300, "Joe", "Boeing 737", 50, false );
         System.out.println("This plane named " + plane5.name + " is a " + plane5.model + ". It is " + plane5.length + " meters long. It has capacity " + plane5.capacity + ". It is double decker is " + plane5.isTwoTier);
-
-        Classroom French = new Classroom(345, "Mr. Margraf", true);
+*/
+        Classroom French = new Classroom(379, "Mr. Margraf", true);
         Classroom English = new Classroom();
-
 
 
     }
